@@ -103,7 +103,7 @@ int main(int argc, char* argv[])
 
   if (argc == 2 && strcmp(argv[1], "--version") == 0)
   {
-    printf("wrenc %s; wren %s\n", WRENC_VERSION_STRING, WREN_VERSION_STRING);
+    printf("wrench %s; wren %s\n", WRENC_VERSION_STRING, WREN_VERSION_STRING);
     return 0;
   }
 
